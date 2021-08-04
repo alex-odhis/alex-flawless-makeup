@@ -1,0 +1,41 @@
+<div class="customers container" id="cliets" *ngIf = "customers.length > 0">
+    <h5 class="text-center m-4">Latest Clients</h5>
+    <section class="row ">
+        <div class="col-sm-10 pics">
+            <div *ngFor = "let customer of customers" class="recent-client row text-center m-3">
+                <div class="col-sm-6">
+                <img class=" img-fluid m-auto rounded" [src]="customer.img" [alt]="customer.tone">
+                </div>
+                <div class="col-sm-6 m-auto">
+                    <i class="fa fa-heart text-danger"></i>
+                    <h6>Skin tone: {{ customer.tone }}</h6>
+                    <p>{{ customer.description }}</p>
+                </div>
+            </div>  
+        </div>
+        <!-- <aside class="col-sm-2">
+
+            <h5 class="row">Makeup tips</h5>
+            <a class="row py-5">
+                <h6 class="px-2">Eye brows</h6>
+                <img src="assets/images/eyes.png"  class="img=fluid" alt="">
+            </a>
+            
+            <a class="row py-5">
+                <h6 class="px-2">Foundation</h6>
+                <img src="assets/images/foundation.jpg" class="img=fluid" alt="">
+            </a>
+            
+            <a class="row py-5">
+                <h6 class="px-2">Lips</h6>
+                <img src="assets/images/lip.png" class="img=fluid" alt="">
+            </a>
+
+            <a class="row py-5">
+                <h6 class="">Quick Touches</h6>
+                <img src="assets/images/touch.jpg" class="img=fluid" alt="">
+            </a>
+
+        </aside> -->
+    </section>
+</div>

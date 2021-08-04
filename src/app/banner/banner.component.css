@@ -1,0 +1,43 @@
+/* .background{
+    background-attachment: fixed;
+}  */
+
+  .bg{
+   
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    filter: brightness(50%);
+   -webkit-clip-path: polygon(100% 0, 100% 38%, 78% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 38%, 78% 100%, 0 100%, 0 0);
+
+ }
+
+ .background .intro{
+   color: mediumvioletred;
+    padding: 10px;
+    position: absolute;
+    bottom: 150px;
+  
+}
+
+.background .intro p{
+    color: rgb(231, 213, 213);
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.background i{
+  position: absolute;
+	bottom: 40px;
+	width: 100%;
+  text-align: center;
+  color: white;
+  
+}
+
+
+a{
+    border-radius: 50px;
+}

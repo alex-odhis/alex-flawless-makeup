@@ -1,0 +1,20 @@
+.pics{
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.pics img{
+    max-width: 200px;
+}
+.pics h6{
+    color: mediumvioletred;
+}
+
+.recent-client:nth-child(even){
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+aside img{
+    width: 50px;
+}

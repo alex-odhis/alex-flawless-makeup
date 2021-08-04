@@ -1,0 +1,34 @@
+
+ 
+.package{
+    font-weight: 100;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.package i{
+    color:  yellow;
+    font-size: 20px;
+}
+
+a{
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+ .teaching{
+     background: linear-gradient(45deg, red,#D7008A);
+    
+ }
+
+
+ /* .practice img{
+     width: 300px;
+ } */
+
+ .teaching-style{
+     
+     max-width: 500px;
+     margin: 0 auto;
+
+ }

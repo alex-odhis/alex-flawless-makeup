@@ -1,0 +1,22 @@
+.navbar{
+     background-color: transparent ! important;   
+ }
+ .navbar-brand{
+     color: mediumvioletred;
+ }
+
+ .navbar-brand i{
+     color: orangered;
+ }
+
+ li{
+     cursor: pointer;
+ }
+ .header_change{
+     background: #222066 !important;
+     opacity: 50%;
+ }
+
+ .icons{
+     color: mediumvioletred;
+ }

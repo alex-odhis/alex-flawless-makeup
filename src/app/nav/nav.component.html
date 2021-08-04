@@ -1,0 +1,43 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light" [class.header_change]= "header_variable">
+    <a class="navbar-brand " [routerLink]="['/#home']">
+        <p>Flawless<i class="fa fa-diamond"></i>Makeup</p>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+                <a class="nav-link" [routerLink]="['/#home']">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" (click)="toPackages()">Packages</a>
+            </li>
+
+            <!-- <a class="navbar-brand d-none d-sm-block" href="#">Navbar</a> -->
+            <li class="nav-item">
+                <a class="nav-link" (click)="toLessons()">Makeup Lessons</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" (click)="toClients()">Recent Cliets</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">link</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">link</a>
+            </li>
+        </ul>
+
+        <div class="icons">
+            <i class="fa fa-facebook mx-2"></i>
+            <i class="fa fa-twitter-square mx-2"></i>
+            <i class="fa fa-instagram mx-2"></i>
+        </div>
+    </div>
+</nav>

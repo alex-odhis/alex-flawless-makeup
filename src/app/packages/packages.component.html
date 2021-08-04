@@ -1,0 +1,26 @@
+<div id="packages">
+<div *ngIf="packages" class="row package text-center container-fluid my-3 "  >
+    <div *ngFor="let package of packages" class=" col-sm-4 text-center">
+        <i class="{{ package.icon }}"></i>
+        <h6>{{ package.name }}</h6>
+        <div class=" wow slideInLeft" data-wow-duration="28" data-wow-delay="8s">
+        <a><img class=" img-fluid rounded-circle "    [src]= "package.img"></a>
+        <p>{{package.description}}</p>
+        </div>
+        <a href="#" class="btn btn-light">Book Session</a>
+    </div> 
+
+</div>
+</div>
+<div id="lessons" class="teaching text-center py-5">
+    <div class="teaching-style">
+        <h5 class="text-dark">Makeup Lessons</h5>
+        <p class="text-light">Over the years i've tought the art of Makeup to hundreds of students, both privately, in person and remotely. What are you waiting for? Your great Career as a Makeup Artist awaits you.</p>
+        <a class="btn btn-light" href="mailto:lxodhiambo@gmail.com">Book Session</a>
+    
+     </div>
+</div>
+
+<!-- <div>
+    <div class="bg-attachment img-fluid" [ngStyle]="{'background-image': 'url(../assets/images/paint1.jpeg)'}"></div>
+</div> -->
