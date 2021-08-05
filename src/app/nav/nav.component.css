@@ -2,15 +2,16 @@
      background-color: transparent ! important;   
  }
  .navbar-brand{
-     color: mediumvioletred;
+     color: pink;
  }
 
  .navbar-brand i{
-     color: orangered;
+     color: yellow;
  }
 
  li{
      cursor: pointer;
+     font-size: 18px;
  }
  .header_change{
      background: #222066 !important;
