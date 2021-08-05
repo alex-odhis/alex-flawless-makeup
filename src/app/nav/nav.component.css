@@ -4,6 +4,9 @@
  .navbar-brand{
      color: pink;
  }
+li a{
+     color: yellow !important;
+ }
 
  .navbar-brand i{
      color: yellow;
@@ -13,6 +16,7 @@
      cursor: pointer;
      font-size: 18px;
  }
+
  .header_change{
      background: #222066 !important;
      opacity: 50%;
