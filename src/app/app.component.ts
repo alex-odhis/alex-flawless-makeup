@@ -5,7 +5,7 @@ import { NgwWowService } from 'ngx-wow';
   selector: 'app-root',
   template: `   <nav-bar></nav-bar>
                 <router-outlet></router-outlet>
-                <footer></footer>
+                <footer id="contact"></footer>
              `,
   styleUrls: ['./app.component.css']
 })

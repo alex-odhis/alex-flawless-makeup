@@ -33,4 +33,7 @@ export class NavComponent {
     toLessons() {
         document.getElementById('lessons').scrollIntoView({ behavior: 'smooth' })
     }
+    toContact() {
+        document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })
+    }
 }

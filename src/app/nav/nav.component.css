@@ -4,8 +4,19 @@
  .navbar-brand{
      color: pink;
  }
-li a{
-     color: yellow !important;
+
+ li a{
+     color: #FFF430 !important;
+ }
+
+ li a:hover{
+     color: pink !important;
+     border-bottom: 2px solid mediumvioletred;
+ }
+
+ li a:active{
+     color: pink !important;
+     border-bottom: 2px solid mediumvioletred;
  }
 
  .navbar-brand i{
@@ -14,7 +25,7 @@ li a{
 
  li{
      cursor: pointer;
-     font-size: 18px;
+     font-size: 17px;
  }
 
  .header_change{

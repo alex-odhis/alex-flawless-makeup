@@ -11,10 +11,10 @@ import { Component } from '@angular/core';
                   <p>Email Address: lxodhiambo@gmail.com</p>
                   <p>tel: 0712192510</p>
                   <div class="icons">
-                    <i class="fa fa-facebook mx-2 px-2 text-primary bg-white rounded-circle" ></i>
-                    <i class="fa fa-twitter mx-2 bg-info  rounded-circle"></i>
-                    <i class="fa fa-instagram mx-2 text-danger bg-white rounded-circle" ></i>
-                    <i class="fa fa-whatsapp mx-2 text-success bg-white rounded-circle" ></i>
+                    <a class="fa fa-facebook mx-2 px-2 text-primary bg-white rounded-circle" ></a>
+                    <a class="fa fa-twitter mx-2 bg-info  rounded-circle"></a>
+                    <a class="fa fa-instagram mx-2 text-danger bg-white rounded-circle" ></a>
+                    <a class="fa fa-whatsapp mx-2 text-success bg-white rounded-circle" ></a>
                   </div>
                   <div class="text-center py-2">
                     <p>Copyright 2021</p>

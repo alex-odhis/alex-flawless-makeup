@@ -1,6 +1,6 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light" [class.header_change]= "header_variable">
-    <a class="navbar-brand " [routerLink]="['/#home']">
-        <h5>Flawless<i class="fa fa-diamond fa-2x"></i>Makeup</h5>
+    <a class="navbar-brand" [routerLink]="['/#home']">
+        <h5>flawless<i class="fa fa-diamond "></i>makeup</h5>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,20 +9,23 @@
 
     <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto">
-            <li class="nav-item active">
-                <a class="nav-link" [routerLink]="['/#home']">Home<span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+                <a class="nav-link" routerLinkActive="active" [routerLink]="['/#home']">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" (click)="toPackages()">Packages</a>
+                <a class="nav-link" routerLinkActive="active" (click)="toPackages()">Packages</a>
             </li>
 
             <!-- <a class="navbar-brand d-none d-sm-block" href="#">Navbar</a> -->
             <li class="nav-item">
-                <a class="nav-link" (click)="toLessons()">Makeup Lessons</a>
+                <a class="nav-link" routerLinkActive="active" (click)="toLessons()">Makeup Lessons</a>
             </li>
             
             <li class="nav-item">
-                <a class="nav-link" (click)="toClients()">Recent Cliets</a>
+                <a class="nav-link" routerLinkActive="active" (click)="toClients()">Recent Cliets</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLinkActive="active" (click)="toContact()">Contact</a>
             </li>
         </ul>
 
