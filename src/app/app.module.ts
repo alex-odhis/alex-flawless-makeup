@@ -13,6 +13,9 @@ import { CustomerComponent } from './customers/customers.component';
 import { FooterComponent } from './footer/footer.component';
 import { PackagesService } from './packages/packages.service';
 import { CustomersService } from './customers/customers.service';
+import { TestimonyService } from './testimony/testimony.service';
+import { TestimonyCopmponent } from './testimony/testimony.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 @NgModule({
@@ -22,17 +25,20 @@ import { CustomersService } from './customers/customers.service';
     BannerComponent,
     PackagesComponent,
     CustomerComponent,
-    FooterComponent
+    FooterComponent,
+    TestimonyCopmponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     NgwWowModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    CarouselModule
   ],
   providers: [
     PackagesService,
-    CustomersService
+    CustomersService,
+    TestimonyService
   ],
   bootstrap: [AppComponent]
 })

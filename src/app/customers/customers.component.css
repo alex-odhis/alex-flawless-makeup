@@ -5,7 +5,7 @@
 
 .pics img{
     max-width: 200px;
-    box-shadow:2px 2px 5px yellow;
+    box-shadow:1px 1px 5px yellow;
 }
 .pics h6{
     color: mediumvioletred;

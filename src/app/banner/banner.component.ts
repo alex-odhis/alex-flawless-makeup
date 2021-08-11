@@ -15,7 +15,8 @@ import { Component } from '@angular/core';
                   </div>
                 </div>
                 <packages id ="packages"></packages>
-                <customers id = "clients"></customers>
+                <customers id ="clients"></customers>
+                <testimonials></testimonials>
                 ` ,
 
     styleUrls: ['./banner.component.css']

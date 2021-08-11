@@ -1,7 +1,9 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light" [class.header_change]= "header_variable">
-    <a class="navbar-brand" [routerLink]="['/#home']">
+
+    <a class="navbar-brand d-sm-block d-lg-none" href="#">
         <h5>flawless<i class="fa fa-diamond "></i>makeup</h5>
     </a>
+    
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -20,6 +22,10 @@
             <li class="nav-item">
                 <a class="nav-link" routerLinkActive="active" (click)="toLessons()">Makeup Lessons</a>
             </li>
+
+            <a class="navbar-brand mx-4 mt-1 nav-link d-xs-none d-sm-none d-lg-block" href="#">
+                <h5>flawless<i class="fa fa-diamond "></i>makeup</h5>
+            </a>
             
             <li class="nav-item">
                 <a class="nav-link" routerLinkActive="active" (click)="toClients()">Recent Cliets</a>
@@ -29,11 +35,13 @@
             </li>
         </ul>
 
-        <div class="icons">
-            <i class="fa fa-facebook mx-2"></i>
-            <i class="fa fa-twitter-square mx-2"></i>
-            <i class="fa fa-instagram mx-2"></i>
-            <i class="fa fa-whatsapp mx-2"></i>
+        
+
+       <div class="icons">
+            <a href="#" class="fa fa-facebook mx-2"></a>
+            <a href="#" class="fa fa-twitter-square mx-2"></a>
+            <a href="#" class="fa fa-instagram mx-2"></a>
+            <a href="#" class="fa fa-whatsapp mx-2"></a>
         </div>
     </div>
 </nav>
