@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
         <div class="footer">
           <div class="text-center">
               <div class="py-3 p-5 text-center">
-                  <h6 class="text-body">CONTACT US</h6>
+                  <h6 class="text-warning">CONTACT US</h6>
                   <p>Email Address: lxodhiambo@gmail.com</p>
                   <p>tel: 0712192510</p>
                   <div class="icons">

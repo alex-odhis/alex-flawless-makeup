@@ -21,6 +21,11 @@
 
  .navbar-brand i{
      color: yellow;
+     background: mediumvioletred;
+     border: 2px solid yellow;
+     border-radius: 50%;
+     padding: 2px;
+     margin: 0 3px;
  }
 
  li{
