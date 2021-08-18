@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
                   <div class="bg img-fluid" [ngStyle]="{'background-image': 'url(../assets/images/beauty.jpg)' }">
                   <i class="fa fa-angle-down fa-4x" (click)= "toPackages()"></i>
                   </div>
-                  <div class="text-center intro"><h1>flawless look </h1> 
+                  <div class=" intro"><h1>flawless look </h1> 
                     <h3>no matter the occasion, we got you</h3>
                      <p>ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in tristique risus. 0712192510</p>
                      <a class="btn btn-light " href="mailto:lxodhiambo@gmail.com">Book Session</a>

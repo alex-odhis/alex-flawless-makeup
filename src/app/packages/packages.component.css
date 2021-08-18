@@ -1,5 +1,3 @@
-
- 
 .package{
     font-weight: 100;
     max-width: 800px;
@@ -11,23 +9,18 @@
     font-size: 20px;
 }
 
-a{
+a, img{
     border-radius: 50px;
-    border: 1px solid black;
+    border: 2px solid mediumvioletred;
 }
+
 
  .teaching{
      background: linear-gradient(45deg, red,#D7008A);
     
  }
 
-
- /* .practice img{
-     width: 300px;
- } */
-
  .teaching-style{
-     
      max-width: 500px;
      margin: 0 auto;
 

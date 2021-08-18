@@ -19,6 +19,7 @@
     padding: 10px;
     position: absolute;
     bottom: 150px;
+    margin-left: 40px;
   
 }
 
@@ -28,8 +29,8 @@
 
 .background .intro p{
     color: mediumvioletred;
-    max-width: 200px;
-    margin: 0 auto;
+    max-width: 400px;
+    /* margin: 0 auto; */
 }
 
 .background i{
