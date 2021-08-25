@@ -18,7 +18,7 @@ import { Component } from '@angular/core';
                   </div>
                   <div class="text-center py-2">
                     <p>Copyright 2021</p>
-                    <span class="bg-white text-warning rounded-circle p-2">VA</span>
+                    <span class="bg-white text-danger rounded-circle p-2">FM</span>
                   </div>
               </div>
           </div>  
