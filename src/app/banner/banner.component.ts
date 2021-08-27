@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
     //we dont need a selector coz we are routing to it directly
 
     template:`<div id="home" class="background">
-                  <div class="bg img-fluid" [ngStyle]="{'background-image': 'url(../assets/images/beauty.jpg)' }">
+                  <div class="bg img-fluid" [ngStyle]="{'background-image': 'url(./assets/images/beauty.jpg)' }">
                    <i class="fa fa-angle-down fa-4x" (click)= "toPackages()"></i>
                   </div>
                   <div class=" intro"><h1>flawless look </h1> 
