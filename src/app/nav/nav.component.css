@@ -14,16 +14,13 @@
      border-bottom: 2px solid mediumvioletred;
  }
 
- li a:active{
+li a:active{
      color: pink !important;
      border-bottom: 2px solid mediumvioletred;
  }
 
  .navbar-brand i{
      color: yellow;
-     background: mediumvioletred;
-     border: 2px solid yellow;
-     border-radius: 50%;
      padding: 2px;
      margin: 0 3px;
  }

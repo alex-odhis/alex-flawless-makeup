@@ -6,8 +6,8 @@
     background-repeat: no-repeat;
     background-position: center bottom;
     filter: brightness(70%);
-   -webkit-clip-path: polygon(100% 0, 100% 38%, 78% 100%, 0 100%, 0 0);
-    clip-path: polygon(100% 0, 100% 38%, 78% 100%, 0 100%, 0 0);
+   /* -webkit-clip-path: polygon(100% 0, 100% 38%, 78% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 38%, 78% 100%, 0 100%, 0 0); */
 
  }
 
@@ -17,7 +17,7 @@
     position: absolute;
     bottom: 150px;
     margin-left: 40px;
-  
+    z-index: 2;  
 }
 
 .intro h1, h3{
@@ -43,4 +43,14 @@
 a{
     border-radius: 50px;
     border: 2px solid mediumvioletred;
+}
+
+#home{
+  position: relative;
+}
+
+.wave{
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
