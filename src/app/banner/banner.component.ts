@@ -26,4 +26,8 @@ import { Component } from '@angular/core';
 
 export class BannerComponent {
 
+  toPackages() {
+    document.getElementById('packages').scrollIntoView({ behavior: 'smooth' })
+  }
+
 }
