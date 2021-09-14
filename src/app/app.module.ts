@@ -16,6 +16,7 @@ import { CustomersService } from './customers/customers.service';
 import { TestimonyService } from './testimony/testimony.service';
 import { TestimonyCopmponent } from './testimony/testimony.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { ParallaxModule, ParallaxConfig } from 'ngx-parallax';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     BrowserAnimationsModule,
     NgwWowModule,
     RouterModule.forRoot(appRoutes),
-    CarouselModule
+    CarouselModule,
+    ParallaxModule
   ],
   providers: [
     PackagesService,
