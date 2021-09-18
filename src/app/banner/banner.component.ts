@@ -5,8 +5,8 @@ import { Component } from '@angular/core';
 
     //we dont need a selector coz we are routing to it directly
 
-    template:`<div id="home" class="background">
-                  <div class="bg img-fluid" [ngStyle]="{'background-image': 'url(./assets/images/beauty.jpg)' }">
+  template:`<div id="home" class="background">
+                  <div parallax [config]="{initialValue: -100, ratio: .4}" class="bg img-fluid" [ngStyle]="{'background-image': 'url(./assets/images/beauty.jpg)' }">
                   </div>
                   <div parallax class=" intro"><h1>Flawless Look </h1>
                     <h3>No matter the occasion, we got You..</h3>
